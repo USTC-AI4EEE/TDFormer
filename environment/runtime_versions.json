@@ -1,0 +1,24 @@
+{
+  "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.13.0",
+    "scikit-learn": "1.1.3",
+    "torch": "1.13.1+cu117",
+    "pytorch-lightning": "1.9.0",
+    "pytorch-forecasting": "0.10.3",
+    "torchmetrics": "0.11.4",
+    "matplotlib": "3.7.5",
+    "einops": "0.8.0",
+    "tensorboard": "2.15.2",
+    "optuna": "2.10.1",
+    "sympy": "1.12.1",
+    "setuptools": "80.9.0"
+  },
+  "optional_packages": {
+    "numba": null
+  },
+  "note": "Observed at archive validation, not a historical training-environment lock. Module versions imported with PYTHONNOUSERSITE=1; setuptools via metadata. A missing optional package does not prevent metrics or checkpoint inference."
+}
